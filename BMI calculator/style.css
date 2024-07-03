@@ -1,0 +1,114 @@
+
+body{
+
+   
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(180deg, #37b7db 0%, #114c17 100%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    
+}
+#Bbox{
+
+width: 800px;
+    height: 500px;
+    margin: 80px auto 0 auto; 
+    background-color: transparent
+}
+.wei{
+
+padding: 20px;
+margin: 5px auot 0 auto;
+font-size: 20px;
+
+}
+input{
+   
+    width: 50%;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+ 
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: #536b7c;
+    height: 1px;
+  }
+  input[type="range"]::-moz-range-track {
+    background: #5c7383;
+    height: 0;
+  }
+  input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 10px;
+  width: 14px;
+  border-radius: 7px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -2.5px;
+}
+#sbox{
+    position: relative;
+  top: 110px;
+  left: 120px;
+    
+    }
+    #kg{
+
+        font-family: 'Courier New', Courier, monospace;
+        stroke: aliceblue;
+        margin-left: 10px;
+    }
+    #cm{
+
+        font-family: 'Courier New', Courier, monospace;
+        stroke: aliceblue;
+        margin-left: 10px;
+    }
+
+
+
+
+    /* #b1{
+height: 500px;
+width: 500px;
+background-color: aquamarine;
+margin: 100px auto 0 auto;
+
+
+    }
+    #b2{
+
+        height: 50px;
+width: 50px;
+background-color: red;
+position:relative;
+top: 208px;
+left: 219px;
+
+
+    } */
+  .para{
+    position: relative;
+    top: 100px;
+    left: 360px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  #charact{
+    position: relative;
+    left: 320px;
+  }
