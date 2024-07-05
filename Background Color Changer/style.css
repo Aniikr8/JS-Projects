@@ -1,0 +1,31 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#283faa;
+}
+div{
+
+    margin: 300px auto 0px auto;
+}
+#bttn{
+    font-family: 'Poppins',sans-serif;
+    background-color: transparent;
+    padding: 15px;
+    letter-spacing: 1.5px;
+
+    border: 5px solid white;
+  
+    border-radius: 50px;
+    color: #ffff;
+    cursor: pointer;
+   
+}
+#bttn:hover{
+
+    background: #ff0000;
+  background: var(--td-background-color);
+
+}
