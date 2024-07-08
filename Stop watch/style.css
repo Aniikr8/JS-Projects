@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: azure;
+}
+@font-face {
+    font-family: 'providence-bold';
+    src: url('digital-7/digital-7.ttf');
+  }
+button{
+
+    font-family: 'Courier New', Courier, monospace;
+     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 20px;
+   z-index: -1;
+   margin-top: 280px;
+   margin-left: 120px;
+   font-weight: bolder;
+   color: azure;
+   letter-spacing: 2px;
+   font-size: 18px;
+    
+
+}
+button:hover{
+    background: linear-gradient(180deg, #1CB5E0 0%, #000851 100%);;
+
+}
+#div1{
+  
+  margin-left: 300px;
+}
+span{
+
+    position: relative;
+    top: 200px;
+    left: 540px;
+    font-family: 'providence-bold';
+    font-size: 80px;
+}

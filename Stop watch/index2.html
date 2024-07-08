@@ -1,0 +1,49 @@
+<html>
+    <style>
+
+        
+            .mouse{
+transform: rotate(90deg);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+        
+    </style>
+   <head>
+      <title>JavaScript clearTimeout() method</title>
+      <script>
+         <!--
+            var imgObj = null;
+            var animate ;
+           
+            function init(){
+               imgObj = document.getElementById('myImage');
+               imgObj.style.position= 'relative';
+               imgObj.style.left = '0px';
+            }
+            function moveRight(){
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+              var check =  imgObj.style.left;
+              console.log(check);
+               animate = setTimeout(moveRight,20);    // call moveRight in 20msec
+              
+               console.log(animate);
+            }
+            function stop(){
+               clearTimeout(animate);
+               imgObj.style.left = '0px';
+            }
+            window.onload = init;
+         //-->
+      </script>
+   </head>
+   <body>
+      <form>
+        <iframe id = "myImage" class = "mouse" src="https://giphy.com/embed/cj0ASVPMWyAbAHTwlM" width="80" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/labuxusm-transparent-2023-labux-cj0ASVPMWyAbAHTwlM"></a></p>
+         
+         <p>Click the buttons below to handle animation</p>
+         <input type = "button" value = "Start" onclick = "moveRight();" />
+         <input type = "button" value = "Stop" onclick = "stop();" />
+      </form>
+   </body>
+</html>
